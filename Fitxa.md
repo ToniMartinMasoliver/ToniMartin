@@ -452,9 +452,26 @@ Campanya Estiu
 Creus que hauríem de canviar-les de departament?
 
 ☐ Sí  
-☐ No
+X No
 
 Si no, com podríem donar-los accés als recursos del projecte?
+
+
+No hauríem de canviar-les de departament perquè la seva participació en el projecte és temporal i no modifica la seva funció habitual dins de MusicCloud.
+
+Podríem crear un grup específic del projecte, per exemple CampanyaEstiu, i afegir-hi temporalment les persones que hi participen.
+
+    CampanyaEstiu
+    ├── Usuari del departament d'Administració
+    ├── Usuari de Suport tècnic
+    └── Usuari de Producció musical
+
+Després, donaríem permisos al grup CampanyaEstiu sobre:
+
+/empresa/projectes/campanya_estiu
+
+D'aquesta manera, cada persona manté el seu departament original i només rep l'accés addicional necessari per participar en el projecte. Quan el projecte finalitzi, es poden retirar els usuaris del grup.
+
 
 ---
 
