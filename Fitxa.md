@@ -153,6 +153,7 @@ David → lectura/escriptura
 
 Què passaria si l'empresa tingués **100 treballadors** amb el mateix tipus d'accés?
 
+
 ---
 
 ---
