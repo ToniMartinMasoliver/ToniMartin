@@ -421,6 +421,20 @@ El grup Administracio li permetria accedir als recursos comuns del departament, 
 
 Quina possible solució proposes?
 
+
+Una possible solució és crear grups segons el departament i grups addicionals segons les responsabilitats.
+
+En aquest cas:
+
+Administracio → inclou tots els treballadors d'Administració.
+ResponsablesDepartament → inclou els responsables dels diferents departaments.
+
+Així, Laia pertanyeria als dos grups i obtindria els permisos generals d'Administració i els permisos addicionals corresponents a la seva responsabilitat com a cap de departament.
+
+Aquesta solució permet gestionar els permisos de manera més fàcil, ordenada i segura, sense haver d'assignar permisos individualment a cada usuari.
+
+
+
 ---
 
 ---
