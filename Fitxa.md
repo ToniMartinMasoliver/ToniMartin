@@ -487,11 +487,16 @@ Completa les frases amb les teves paraules.
 
 Un usuari representa:
 
+Una persona que forma part de l'empresa i que pot accedir als recursos del sistema segons les seves funcions i permisos.
+
+
 ---
 
 ### Recurs
 
 Un recurs és:
+
+Un element del sistema, com una carpeta o fitxer, al qual els usuaris poden tenir accés.
 
 ---
 
@@ -499,11 +504,16 @@ Un recurs és:
 
 Un permís determina:
 
+Quines accions pot realitzar un usuari o grup sobre un recurs, com llegir, modificar o administrar-lo.
+
+
 ---
 
 ### Grup
 
 Un grup serveix per:
+
+Agrupar usuaris que tenen necessitats d'accés similars i facilitar la gestió dels seus permisos de manera conjunta.
 
 ---
 
