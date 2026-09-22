@@ -389,9 +389,31 @@ Laia treballa al departament d'Administració, però també és la responsable d
 És suficient que pertanyi només al conjunt `Administració`?
 
 ☐ Sí  
-☐ No
+X No
 
 Per què?
+
+
+
+
+No és suficient perquè Laia, a més de ser treballadora d'Administració, és la responsable del departament i necessita permisos diferents dels altres membres.
+
+Per tant, hauria de pertànyer al conjunt Administracio i també a un conjunt específic de responsables, per exemple ResponsablesDepartament.
+
+    Administracio
+    ├── Dídac
+    └── Laia
+
+    ResponsablesDepartament
+    └── Laia
+
+
+
+El grup Administracio li permetria accedir als recursos comuns del departament, mentre que ResponsablesDepartament li permetria obtenir els permisos addicionals corresponents a la seva responsabilitat.
+
+
+
+
 
 ---
 
