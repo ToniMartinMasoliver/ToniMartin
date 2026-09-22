@@ -527,11 +527,17 @@ Analitza aquesta afirmació:
 
 Explica amb les teves paraules què significa.
 
+Significa que cada usuari ha de tenir només els permisos que necessita per realitzar les seves funcions, sense donar-li accessos addicionals que no siguin necessaris. Això ajuda a reduir els riscos i protegir la informació de l'empresa.
+
+
 ---
 
 ---
 
 Posa un exemple relacionat amb MusicCloud.
+
+Per exemple, Dídac, com a treballador d'Administració, pot tenir accés de lectura i escriptura a la carpeta compartida d'Administració, però no hauria de tenir accés a la carpeta backups, ja que no necessita gestionar les còpies de seguretat per realitzar la seva feina.
+
 
 ---
 
@@ -547,8 +553,13 @@ Quina de les dues estratègies consideres més adequada?
 
 ☐ Assignar permisos individualment a cada usuari.
 
-☐ Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
+X Organitzar els usuaris segons les seves necessitats i assignar permisos a aquests conjunts.
 
 Justifica la resposta.
 
+Aquesta opció és més adequada perquè permet gestionar els permisos de manera centralitzada i eficient. En lloc d'assignar els permisos un per un als 500 treballadors, podem crear grups segons el departament, la funció o el projecte i assignar els permisos als grups.
+
+D'aquesta manera, quan s'incorpora un treballador nou, només cal afegir-lo al grup corresponent. Si canvia de departament o deixa l'empresa, també és més fàcil modificar o retirar els seus accessos.
+
+A més, aquesta estratègia redueix els errors i facilita el compliment de la regla de mínim privilegi.
 
