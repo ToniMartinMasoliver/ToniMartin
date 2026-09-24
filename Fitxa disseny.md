@@ -103,17 +103,24 @@ Indica:
 
 **En quina OU ubicaries el seu compte?**
 
+OU Usuaris/Administracio, perquè Dídac treballa al departament d'Administració.
+
 ---
 
 **A quins grups podria pertànyer?**
 
----
+Administracio, perquè és treballador d'aquest departament.
+CampanyaEstiu, perquè participa en aquest projecte.
+
 
 ---
 
 ### Per què no és contradictori que estigui en una OU però pertanyi a diversos grups?
 
----
+No és contradictori perquè l'OU indica on està organitzat el compte dins del directori, mentre que els grups indiquen a quines funcions, recursos o projectes té accés.
+
+Per tant, Dídac està físicament organitzat a l'OU Administracio, però pot pertànyer a diversos grups segons les seves necessitats.
+
 
 ---
 
