@@ -227,9 +227,13 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 ### Decisió 1
 
+Separar els objectes en les OU Usuaris, Grups, Equips, Xarxa i Software.
+
 ---
 
 **Justificació:**
+
+Aquesta organització permet mantenir el directori estructurat i facilita la gestió dels diferents tipus d'objectes de MusicCloud.
 
 ---
 
@@ -237,9 +241,13 @@ Escull **dues decisions** del teu DIT que consideris importants i justifica-les.
 
 ### Decisió 2
 
+Organitzar els Grups per departament i crear un grup específic per al cap de cada departament.
+
 ---
 
 **Justificació:**
+
+Aquesta estructura permet diferenciar els treballadors d'un mateix departament dels seus responsables i facilitar la gestió dels permisos segons les funcions de cada persona.
 
 ---
 
