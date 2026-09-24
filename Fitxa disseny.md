@@ -130,13 +130,16 @@ Per tant, Dídac està físicament organitzat a l'OU Administracio, però pot pe
 
 Explica breument què entens per **servei de directori**.
 
+Un servei de directori és un sistema que permet organitzar i gestionar de manera centralitzada la informació dels objectes d'una empresa, com ara usuaris, grups, equips i servidors.
+
 ---
 
 ---
 
 Quin problema resol a MusicCloud?
 
----
+A MusicCloud permet tenir tots aquests objectes organitzats i gestionar-los de manera centralitzada, facilitant l'administració dels usuaris, grups, equips i servidors a mesura que l'empresa creix.
+
 
 ---
 
@@ -148,9 +151,13 @@ Completa les frases següents.
 
 **LDAP és:**
 
+Un protocol que permet accedir, consultar i gestionar informació emmagatzemada en un servei de directori.
+
 ---
 
 **LDAP no és:**
+
+No és un servei de directori en si mateix ni és sinònim d'Active Directory. És un protocol que poden utilitzar els serveis de directori.
 
 ---
 
@@ -158,40 +165,59 @@ Indica si les afirmacions són certes o falses.
 
 |Afirmació|C|F|
 |---|:-:|:-:|
-|LDAP és sinònim d'Active Directory|☐|☐|
-|LDAP permet accedir i consultar informació d'un directori|☐|☐|
-|OpenLDAP és una implementació d'un servei de directori|☐|☐|
-|Active Directory utilitza LDAP, entre altres tecnologies|☐|☐|
+|LDAP és sinònim d'Active Directory|☐|X|
+|LDAP permet accedir i consultar informació d'un directori|X|☐|
+|OpenLDAP és una implementació d'un servei de directori|X|☐|
+|Active Directory utilitza LDAP, entre altres tecnologies|X|☐|
 
 ---
 
 # 7. DIT de MusicCloud
 
-Dibuixa la proposta final de **Directory Information Tree (DIT)** de MusicCloud.
+    MusicCloud
+    │
+    ├── Usuaris
+    │   ├── Direccio
+    │   ├── Administracio
+    │   ├── SuportTecnic
+    │   ├── ProduccioMusical
+    │   └── Informatica
+    │
+    ├── Grups
+    │   ├── Direccio
+    │   │   └── Cap_Direccio
+    │   │
+    │   ├── Administracio
+    │   │   └── Cap_Administracio
+    │   │
+    │   ├── SuportTecnic
+    │   │   └── Cap_SuportTecnic
+    │   │
+    │   ├── ProduccioMusical
+    │   │   └── Cap_ProduccioMusical
+    │   │
+    │   └── Informatica
+    │       └── Cap_Informatica
+    │
+    ├── Equips
+    │   ├── PC
+    │   ├── Portatils
+    │   ├── Mobils
+    │   ├── Impressores
+    │   └── Servidors
+    │
+    ├── Xarxa
+    │   ├── Routers
+    │   ├── Switches
+    │   ├── Firewalls
+    │   ├── NAS
+    │   └── SAI
+    │
+    └── Software
+            └── Aplicacions
+    
 
-Ha de mostrar, com a mínim:
 
-- usuaris;
-    
-- grups;
-    
-- equips;
-    
-- servidors;
-    
-- comptes d'aplicacions o serveis;
-    
-- les subdivisions que consideris necessàries.
-    
-
-```text
-MusicCloud
-│
-│
-│
-│
-│
-```
 
 ---
 
