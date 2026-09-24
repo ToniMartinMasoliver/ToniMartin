@@ -261,21 +261,21 @@ Respon breument.
 
 ### a) Per què no seria una bona idea guardar tots els usuaris, grups, equips i servidors al mateix nivell sense organitzar-los?
 
----
+Perquè el directori seria desordenat i més difícil d'administrar. Separar els objectes per tipus facilita trobar-los i gestionar-los de manera més clara.
 
 ---
 
 ### b) Per què no hauríem d'utilitzar les OU per substituir els grups de permisos?
 
----
+Perquè les OU serveixen principalment per organitzar els objectes dins del directori, mentre que els grups serveixen per agrupar usuaris i gestionar els seus permisos i accessos.
+
+
 
 ---
 
 ### c) Si MusicCloud passa de 14 a 500 treballadors, quina característica del disseny que has fet avui facilitarà més l'administració?
 
----
-
----
+La característica més útil serà l'organització dels usuaris i grups per departaments. Això permetrà gestionar els permisos de molts usuaris de manera conjunta, sense haver de configurar-los un per un.
 
 ---
 
@@ -285,18 +285,55 @@ A partir de les decisions preses durant la sessió, deixa definida la proposta q
 
 ## Estructura d'unitats organitzatives
 
-```text
-MusicCloud
-│
-│
-│
-│
-```
+    MusicCloud
+    │
+    ├── Usuaris
+    │   ├── Direccio
+    │   ├── Administracio
+    │   ├── SuportTecnic
+    │   ├── ProduccioMusical
+    │   └── Informatica
+    │
+    ├── Grups
+    │   ├── Direccio
+    │   │   └── Cap_Direccio
+    │   │
+    │   ├── Administracio
+    │   │   └── Cap_Administracio
+    │   │
+    │   ├── SuportTecnic
+    │   │   └── Cap_SuportTecnic
+    │   │
+    │   ├── ProduccioMusical
+    │   │   └── Cap_ProduccioMusical
+    │   │
+    │   └── Informatica
+    │       └── Cap_Informatica
+    │
+    ├── Equips
+    │   ├── PC
+    │   ├── Portatils
+    │   ├── Mobils
+    │   ├── Impressores
+    │   └── Servidors
+    │
+    ├── Xarxa
+    │   ├── Routers
+    │   ├── Switches
+    │   ├── Firewalls
+    │   ├── NAS
+    │   └── SAI
+    │
+    └── Software
+        └── Aplicacions
 
 ## Criteri utilitzat per organitzar els objectes
 
----
+Hem organitzat els objectes del directori segons el seu tipus i funció, separant els usuaris, grups, equips, elements de xarxa i software. Dins de cada categoria s'han creat subdivisions per facilitar la gestió i mantenir el directori ordenat
 
 ---
 
 ## Criteri utilitzat per diferenciar OU i grups
+Les OU s'utilitzen principalment per organitzar els objectes del directori en una estructura clara.
+
+Els grups s'utilitzen per agrupar usuaris segons les seves necessitats, funcions o responsabilitats, facilitant posteriorment la gestió dels permisos i accessos.
