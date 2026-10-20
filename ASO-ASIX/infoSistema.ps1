@@ -1,3 +1,4 @@
+
 # INFORMACIO DEL SISTEMA
 
 $equip = $env:COMPUTERNAME
@@ -11,5 +12,5 @@ Write-Output ""
 Write-Output "Equip: $equip"
 Write-Output "Usuari: $usuari"
 Write-Output "PowerShell: $versio"
-Write-Output "Data: $data"
+Write-Output "Data i hora: $data"
 Write-Output "Directori actual: $directori"
