@@ -21,7 +21,7 @@ Indica quins tipus d'objectes consideres que ha de contenir el servei de directo
 
 Hi afegiries algun altre tipus d'objecte?
 
-Sí. Afegiria contactes o usuaris externs, per poder identificar i gestionar els accessos de persones externes com Pere Espinalt i Neus Bages.
+Sí. Afegiria contactes o usuaris externs, per poder identificar i gestionar els accessos de persones externes com Pere Espinalt i Neus Bages. dasda
 
 ---
 
